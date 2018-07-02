@@ -18,11 +18,8 @@ OKhttp3 Custom for android app
 ### Step 2. Add the dependency
 
 ```gradle
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	dependencies {
+	        implementation 'com.github.congfandi:OkCong:1.0.0'
 	}
 ```
 ### Step 3. Call Class
